@@ -1,0 +1,25 @@
+{
+  "name": "ahj-sse-ws-server",
+  "version": "1.0.0",
+  "description": "Chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kosatos/ahj-sse-ws-server.git"
+  },
+  "author": "Konstantin Muzyka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kosatos/ahj-sse-ws-server/issues"
+  },
+  "homepage": "https://github.com/Kosatos/ahj-sse-ws-server#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "ws": "^8.7.0",
+    "uuid": "^8.3.2"
+  }
+}
